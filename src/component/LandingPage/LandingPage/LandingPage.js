@@ -223,6 +223,7 @@ export default function LandingPage() {
       <Row className="mainRow cardsVisit mb-md-0 mb-5">
         <Col
           md={5}
+          
           className="custom-col img7 text-center"
           style={{ backgroundColor: "#69a1c4" }}
           onClick={() => navigate("/career")}
