@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  .customCardsJobsaved .p-md-3.text-left {
+    text-align: left !important;
+  }
+}

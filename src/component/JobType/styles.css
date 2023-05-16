@@ -1,0 +1,14 @@
+.ROwwwstyle {
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+.textSystem {
+  width: 29rem;
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    font-size: 0.9rem !important;
+  }
+
+}

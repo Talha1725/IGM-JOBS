@@ -1,0 +1,14 @@
+.selectTopRow {
+  width: 39rem;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .selectTopRow {
+    width: 90%;
+    font-size: 0.6rem !important;
+  }
+
+}

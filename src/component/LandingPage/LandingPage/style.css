@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  overflow-x: hidden !important;
+}
+
+.firstHeading {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.secondHeadings {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  color: #000;
+  -webkit-text-stroke: 4px #000;
+  /* text-stroke: 2px #000; */
+  letter-spacing: 2px;
+}
+
+p {
+  margin: 0 !important;
+  padding: 0;
+}
+
+.col-content {
+  margin: 0 !important;
+}
+
+.paraContent {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 33px;
+  color: #000000;
+  width: 80%;
+}
+
+/* .px-5 {
+  padding-left: 5rem !important;
+  padding-right: 5rem !important;
+  overflow-x: hidden !important;
+} */
+
+.mainRow {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.SlideShow-h2 {
+  margin-top: 55px;
+  margin-bottom: 55px;
+  /* height: 75px; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 37px;
+  line-height: 67px;
+  text-align: center;
+  color: #000000;
+}
+
+.Find {
+  color: #fd0000;
+}
+
+.slide img {
+  display: block;
+  /* padding-left: 40px;
+  padding-right: 40px; */
+}
+
+/* .logo-image {
+  padding-left: 20px;
+  padding-right: 20px;
+} */
+
+.Bechtel {
+  width: 118px;
+  height: 97px;
+  margin: auto auto;
+}
+
+.Bethanie {
+  width: 214px;
+  height: 70px;
+  margin: auto auto;
+}
+
+.Oakdare {
+  width: 91px;
+  height: 98px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Objective {
+  width: 185px;
+  height: 60px;
+  margin: auto auto;
+}
+
+.Orica {
+  width: 87px;
+  height: 98px;
+  margin: auto auto;
+}
+/* .thirdSection {
+  padding-left: 100px;
+  padding-left: 100px;
+} */
+.Career {
+  margin-top: 100px;
+  /* margin-bottom: 179px; */
+  background: #69a1c4;
+  border-radius: 27px;
+}
+
+.Advice {
+  margin-top: 100px;
+  /* margin-bottom: 179px; */
+  background: #e55353;
+  border-radius: 27px;
+}
+
+.Career-h {
+  height: 66px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.Advice-h {
+  height: 30px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 110px;
+  color: #ffffff;
+}
+.cardsVisit {
+  height: 300px;
+  margin-top: 80px !important;
+  margin-bottom: 80px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-col {
+  margin-right: 60px;
+  border-radius: 27px;
+  height: 300px;
+}
+
+/* If you want the last column to not have a margin-right */
+.custom-col:last-child {
+  margin-right: 0px;
+}
+
+.logo-container .slide {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* flex-wrap: nowrap; */
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.logo-image {
+  /* border: 1px solid #000; */
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+  z-index: 200;
+}
+
+.hrstyle {
+  margin-top: -53px !important;
+  margin-bottom: 0;
+  width: 100%;
+  color: #000 !important;
+}
+.footermain {
+  background: #514e4e;
+  height: 500px;
+}
+.footerSecondary {
+  padding-top: 150px !important;
+}
+
+.ul-text {
+  list-style-type: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  line-height: 40px;
+}
+.headings {
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.footerHr {
+  color: white !important;
+}
+.Img77 {
+  width: 300px  !important;
+  height: 200px !important;
+}
+@media screen and (max-width: 768px) {
+  .mainRow {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 20px !important;
+    width: 100% !important;
+    --bs-gutter-x: 0rem !important;
+    font-size: 0.9rem;
+    /* white-space: wrap; */
+    /* overflow-x: hidden !important; */
+
+    /* overflow-x: hidden !important; */
+    /* width: 90%; */
+  }
+  .row {
+    --bs-gutter-x: 0.5rem !important;
+  }
+  .firstHeading {
+    font-size: 1.8rem !important;
+  }
+  .secondHeadings {
+    font-size: 2.7rem !important;
+    font-weight: 500;
+    color: #000;
+    -webkit-text-stroke: 2px #000;
+    /* text-stroke: 2px #000; */
+    letter-spacing: 2px;
+  }
+  .paraContent {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 25px;
+    color: #000000;
+    width: 80%;
+  }
+  .SlideShow-h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* height: 75px; */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #000000;
+  }
+  .hrstyle {
+    text-align: center !important;
+  }
+
+  .logo-container {
+    display: block;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 99%;
+  }
+
+  .logo-container .slide {
+    display: inline-block;
+    vertical-align: middle;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    margin-bottom: 60px;
+    flex: 0 0 auto;
+  }
+  .custom-col {
+    margin-right: -13px;
+    margin-bottom: 30px !important;
+    width: 290px !important;
+  }
+  .custom-col:last-child {
+    margin-right: -13px;
+    margin-bottom: 30px !important;
+  }
+  .cardsVisit {
+    margin-bottom: 500px !important;
+    /* display: none; */
+  }
+  .Img6 {
+    width: 210px !important;
+    height: 110px !important;
+  }
+  .img7 img {
+    width: 243px !important;
+    height: 175px !important;
+  }
+}

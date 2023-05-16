@@ -1,0 +1,14 @@
+.customColProfile {
+}
+@media (max-width: 767px) {
+  .p-2 {
+    font-size: 8px;
+    /* Adjust the font size as per your requirement */
+  }
+  .customColProfile {
+    /* margin-bottom: 200px !important; */
+  }
+  .sliderCustom {
+    font-size: 0.9rem;
+  }
+}

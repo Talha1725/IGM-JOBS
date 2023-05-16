@@ -1,0 +1,99 @@
+.MainPostJobRow {
+  background-color: white;
+  width: 59rem;
+  border-radius: 7px;
+}
+.postjobPara {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 30px;
+  color: #000000;
+}
+.cardcontent {
+  font-size: 0.9rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 11px;
+  line-height: 163.35%;
+  /* or 18px */
+
+  text-align: center;
+
+  color: #000000;
+}
+.blackHeadings {
+  background: #322f2f;
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cardcontents {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 163.35%;
+  text-align: center;
+}
+.cardpost {
+  box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  border: 1px;
+}
+.subHeading {
+  color: white !important;
+  width: 23rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+.imgsty {
+  width: 410px;
+  /* border-radius: 20px; */
+}
+.cardHeadingCard {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 163.35%;
+  /* identical to box height, or 31px */
+  color: #000000;
+}
+.btnbtn {
+  min-width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .btns {
+    min-width: 110px !important;
+    font-size: 1.1rem !important;
+  }
+  .postjobPara {
+    display: none;
+  }
+  .cardcontent {
+    font-size: 1.1rem;
+  }
+  .btnbtn {
+    min-width: 100px;
+    font-size: 1.2rem !important;
+  }
+  .cardcontents {
+    font-size: 1.2rem !important;
+  }
+  .subHeading {
+    font-size: 1rem !important;
+    width: 18rem;
+  }
+  .MainPostJobRow{
+    overflow-x: hidden !important;
+  }
+  .imgsty {
+    width: 300px;
+    /* border-radius: 20px; */
+  }
+}

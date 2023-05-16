@@ -1,0 +1,23 @@
+.Search-result {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18 px;
+  line-height: 33px;
+  color: rgba(0, 0, 0, 0.61);
+  width: 100% !important;
+}
+
+.custom-checkbox {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.61);
+}
+@media screen and (max-width: 768px) {
+  /* .searchFilters {
+    margin-bottom: 40px !important;
+  } */
+}

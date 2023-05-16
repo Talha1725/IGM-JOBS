@@ -1,0 +1,95 @@
+.body-section {
+  width: 70rem;
+}
+.formContainer {
+  width: 70rem !important;
+  box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  background-color: white;
+}
+.custom-container {
+  display: flex;
+  justify-content: center;
+}
+
+.jobs {
+  background-color: #ffffff;
+}
+
+.description {
+  border-radius: 7px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.25);
+}
+
+.searchFilters {
+  background-color: #ffffff;
+  border-radius: 7px;
+}
+.custom-inputs {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  height: 40px !important;
+}
+.Search-btn {
+  width: 100%;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.88) !important;
+  border-radius: 15px !important;
+  color: white !important;
+  margin-left: -10px !important;
+}
+.custom-input {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  height: 40px !important;
+  border-radius: 0px !important;
+  padding: 20px !important;
+  border: 0px solid grey !important;
+  border-bottom: 0.01rem solid grey !important;
+  border-top: 0.01rem solid grey !important;
+  border-left: 0.01rem solid grey !important;
+}
+
+.formContainer [class^="col-"] {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .searchFilters {
+    overflow-x: hidden;
+    padding: 12px;
+  }
+  .formContainer {
+    background-color: transparent !important;
+    box-shadow: none;
+    width: 98% !important;
+  }
+  .body-section {
+    /* margin-top: 190px; */
+    width: 98%;
+  }
+
+  .custom-container {
+    box-shadow: none;
+  }
+  .custom-input {
+    height: 50px !important;
+    border-radius: 0px !important;
+    padding: 20px !important;
+    border: 0px solid grey !important;
+    border-bottom: 0.01rem solid grey !important;
+  }
+  .Search-btn {
+    height: 50px !important;
+    border-radius: 0px !important;
+    margin-left: 0px !important;
+  }
+  .assHoleRow {
+    padding: 0px !important;
+  }
+  .chootiyaRow {
+    --bs-gutter-x: 0.5rem ;
+  }
+}

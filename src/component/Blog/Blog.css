@@ -1,0 +1,43 @@
+.custom-blog-container {
+  background-color: #f5f5f5;
+}
+
+.custom-row-blog {
+  background-color: #fff;
+  width: 55%;
+  /* margin-bottom: 200px !important; */
+}
+
+.first-row {
+  background-color: #322f2f;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  height: 400px;
+  width: 95%;
+}
+
+.heading-blog {
+  font-weight: 700;
+  font-size: 48.2px;
+  line-height: 163.35%;
+  text-decoration-line: underline;
+  color: white;
+}
+
+.second-row {
+  width: 98%;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+  .custom-row-blog {
+    width: 98% !important;
+  }
+  .first-row {
+    width: 100% !important;
+  }
+  .second-row {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,11 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-indicators li {
+    filter: invert(100%) !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-indicators {
+    color: black !important;
+}

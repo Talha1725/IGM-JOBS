@@ -1,0 +1,23 @@
+.footermain {
+  background: #514e4e;
+  height: 500px;
+}
+.footerSecondary {
+  padding-top: 150px !important;
+}
+
+.ul-text {
+  list-style-type: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  line-height: 40px;
+}
+.heading {
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.footerHr {
+  color: white !important;
+}
